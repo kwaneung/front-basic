@@ -12,6 +12,10 @@ body {
   background-color: white;
   border-bottom: 1px solid lightgray; /* 요소테두리선-아래: 1px두께 가는실선 밝은회색; - header 하단에 회색의 선이 표시됩니다. */
 }
+.body {
+  padding-left: 1.5rem;
+  margin: auto;
+}
 .container {
   /* height: 75px; */
   width: 980px;
