@@ -1,0 +1,21 @@
+.left {
+  float: left;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
+.right {
+  float: right;
+  width: 200px;
+  height: 100px;
+  background-color: lightcoral;
+}
+.content {
+  background-color: lightgreen;
+  height: 200px;
+}
+span {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
