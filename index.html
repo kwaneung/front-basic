@@ -115,60 +115,60 @@
           </tr>
         </tfoot>
       </table>
-    </div>
-  </span>
-  
-  <span>
-    <h1>select 태그</h1>
-    <select>
-      <optgroup label="Coffee">
-        <option>Americano</option>
-        <option>Caffe Mocha</option>
-        <option label="Cappuccino" value="Cappuccino"></option>
-      </optgroup>
-      <optgroup label="Latte" disabled>
-        <option>Caffe Latte</option>
-        <option>Vanilla Latte</option>
-      </optgroup>
-      <optgroup label="Smoothie">
-        <option>Plain</option>
-        <option>Strawberry</option>
+    </span>
+    
+    <span>
+      <h1>select 태그</h1>
+      <select>
+        <optgroup label="Coffee">
+          <option>Americano</option>
+          <option>Caffe Mocha</option>
+          <option label="Cappuccino" value="Cappuccino"></option>
+        </optgroup>
+        <optgroup label="Latte" disabled>
+          <option>Caffe Latte</option>
+          <option>Vanilla Latte</option>
+        </optgroup>
+        <optgroup label="Smoothie">
+          <option>Plain</option>
+          <option>Strawberry</option>
+          <option>Banana</option>
+          <option>Mango</option>
+        </optgroup>
+      </select>
+    </span>
+    
+    <span>
+      <h1>input, label 태그</h1>
+      <!-- 라벨 가능 요소를 참조 -->
+      <input type="checkbox" id="user-agreement" />
+      <label for="user-agreement">동의하십니까?</label>
+
+      <!-- 라벨 가능 요소를 포함 -->
+      <label>
+        <input type="checkbox" />
+        동의하십니까?
+      </label>
+    </span>
+    
+    <span>
+      <h1>input + datalist 태그</h1>
+      <input type="text" list="fruits" />
+
+      <!-- datalist는 사용자의 입력을 도와줄 뿐 select처럼 선택만 하는게 아님-->
+      <datalist id="fruits">
+        <option>Apple</option>
+        <option>Orange</option>
         <option>Banana</option>
         <option>Mango</option>
-      </optgroup>
-    </select>
-  </span>
-  
-  <span>
-    <h1>input, label 태그</h1>
-    <!-- 라벨 가능 요소를 참조 -->
-    <input type="checkbox" id="user-agreement" />
-    <label for="user-agreement">동의하십니까?</label>
+        <option>Fineapple</option>
+      </datalist>
+    </span>
 
-    <!-- 라벨 가능 요소를 포함 -->
-    <label>
-      <input type="checkbox" />
-      동의하십니까?
-    </label>
-  </span>
-  
-  <span>
-    <h1>input + datalist 태그</h1>
-    <input type="text" list="fruits" />
+    <span>
+      <h1>progress 태그</h1>
+      <progress value="70" max="100">70 %</progress>
+    </span>
 
-    <!-- datalist는 사용자의 입력을 도와줄 뿐 select처럼 선택만 하는게 아님-->
-    <datalist id="fruits">
-      <option>Apple</option>
-      <option>Orange</option>
-      <option>Banana</option>
-      <option>Mango</option>
-      <option>Fineapple</option>
-    </datalist>
-  </span>
-
-  <span>
-    <h1>progress 태그</h1>
-    <progress value="70" max="100">70 %</progress>
-  </span>
   </body>
 </html>
