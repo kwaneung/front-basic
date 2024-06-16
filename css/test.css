@@ -68,18 +68,22 @@ wrap-reverse: 아이템이 한 줄에 다 들어가지 않으면 다음 줄로 �
 
 .box-container.flex-flow1 {
   flex-flow: row-reverse wrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
+  justify-content: center;
 }
 
 .box-container.flex-flow2 {
   flex-flow: row-reverse nowrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
+  justify-content: left;
 }
 
 .box-container.flex-flow3 {
   flex-flow: column wrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
-  height: 15rem;
+  justify-content: space-between;
+  height: 20rem;
 }
 
 .box-container.flex-flow4 {
   flex-flow: column nowrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
-  height: 15rem;
+  justify-content: space-around;
+  height: 40rem;
 }
