@@ -53,3 +53,33 @@ span {
 .box-container.inline {
   display: inline-flex;
 }
+
+/*
+flex-direction 값
+row: 기본 값. 주축이 수평이며, 왼쪽에서 오른쪽으로 정렬됩니다.
+row-reverse: 주축이 수평이며, 오른쪽에서 왼쪽으로 정렬됩니다.
+column: 주축이 수직이며, 위에서 아래로 정렬됩니다.
+column-reverse: 주축이 수직이며, 아래에서 위로 정렬됩니다.
+flex-wrap 값
+nowrap: 기본 값. 모든 아이템이 한 줄에 정렬됩니다.
+wrap: 아이템이 한 줄에 다 들어가지 않으면 다음 줄로 넘어갑니다.
+wrap-reverse: 아이템이 한 줄에 다 들어가지 않으면 다음 줄로 넘어가지만, 반대 방향으로 정렬됩니다.
+*/
+
+.box-container.flex-flow1 {
+  flex-flow: row-reverse wrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
+}
+
+.box-container.flex-flow2 {
+  flex-flow: row-reverse nowrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
+}
+
+.box-container.flex-flow3 {
+  flex-flow: column wrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
+  height: 15rem;
+}
+
+.box-container.flex-flow4 {
+  flex-flow: column nowrap; /* 수평 정렬, 필요 시 다음 줄로 넘어감 */
+  height: 15rem;
+}
