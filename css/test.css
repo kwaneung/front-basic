@@ -51,7 +51,7 @@ span {
 }
 
 .box-container.inline {
-  display: inline-flex;
+  display: inline-flex; /* flex와 다르게 수평으로 쌓임 */
 }
 
 /*
