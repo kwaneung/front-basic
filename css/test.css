@@ -34,6 +34,7 @@ span {
   width: 8rem;
   border: 1px solid black; /* 두께, 스타일, 색상 순서 */
   background-color: lightblue;
+  text-align: center;
 }
 .box.flexbox {
   /* flex-grow: 1;: 아이템이 컨테이너의 여유 공간을 모두 차지하도록 하여, 다른 아이템들과 동일하게 여유 공간을 분배받습니다.
