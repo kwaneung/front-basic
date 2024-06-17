@@ -32,7 +32,6 @@ span {
 .box {
   float: left;
   width: 8rem;
-  height: 3rem;
   border: 1px solid black; /* 두께, 스타일, 색상 순서 */
   background-color: lightblue;
 }
